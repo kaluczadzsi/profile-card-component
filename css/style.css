@@ -24,10 +24,11 @@ body {
 
 body {
   font-family: var(--ff);
-  background: url('../images/bg-pattern-top.svg') no-repeat right 20vh bottom
-      50vh,
-    url('../images/bg-pattern-bottom.svg') no-repeat left 20vh top 20vh
-      var(--clr-cyan);
+  background-image: url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-color: var(--clr-cyan);
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
 }
 
 img,
@@ -144,31 +145,4 @@ footer > div {
 
 footer span.clr-dark {
   font-size: 1.2rem;
-}
-
-@media (min-width: 500px) {
-  body {
-    background: url('../images/bg-pattern-top.svg') no-repeat right 40vh bottom
-        40vh,
-      url('../images/bg-pattern-bottom.svg') no-repeat left 40vh top 40vh
-        var(--clr-cyan);
-  }
-}
-
-@media (min-width: 720px) {
-  body {
-    background: url('../images/bg-pattern-top.svg') no-repeat right 50vh bottom
-        50vh,
-      url('../images/bg-pattern-bottom.svg') no-repeat left 50vh top 50vh
-        var(--clr-cyan);
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    background: url('../images/bg-pattern-top.svg') no-repeat right 100vh bottom
-        30vh,
-      url('../images/bg-pattern-bottom.svg') no-repeat left 100vh top 30vh
-        var(--clr-cyan);
-  }
 }
