@@ -1,17 +1,47 @@
 :root {
-  /*
-  Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
-
-### Neutral
-
-Dark gray: hsl(0, 0%, 59%) */
-
   --clr-cyan: hsl(185, 75%, 39%);
   --clr-dark-blue: hsl(229, 23%, 23%);
   --clr-grayish-blue: hsl(227, 10%, 46%);
   --clr-gray: hsl(0, 0%, 59%);
 
   --fs-base: 0.88rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
