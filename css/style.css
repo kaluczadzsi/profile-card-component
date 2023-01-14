@@ -130,6 +130,7 @@ header img:nth-child(2) {
 }
 
 footer {
+  text-align: center;
   font-size: var(--fs-base);
   display: flex;
   justify-content: space-around;
@@ -141,8 +142,11 @@ footer > div {
   display: flex;
   flex-direction: column;
   row-gap: 0.2rem;
+  letter-spacing: 2px;
+  font-size: 10px;
 }
 
 footer span.clr-dark {
   font-size: 1.2rem;
+  display: flex;
 }
