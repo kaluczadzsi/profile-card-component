@@ -149,4 +149,5 @@ footer > div {
 footer span.clr-dark {
   font-size: 1.2rem;
   display: flex;
+  justify-content: center;
 }
