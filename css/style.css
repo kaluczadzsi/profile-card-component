@@ -151,3 +151,9 @@ footer span.clr-dark {
   display: flex;
   justify-content: center;
 }
+
+@media (orientation: landscape) {
+  body {
+    height: 500px;
+  }
+}
